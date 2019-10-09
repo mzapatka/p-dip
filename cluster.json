@@ -1,0 +1,28 @@
+{
+    "__default__" :
+   {
+       "walltime" : "10:00:00",
+       "nodes" : 1,
+       "mem" : "20G"
+   },
+   "pdip_extract_fastq" :
+   {
+       "walltime" : "40:00:00",
+       "mem" : "2G"
+   },    
+   "pdip_assemble" :
+   {
+       "walltime" : "50:00:00",
+       "mem" : "100G"
+   },
+   "pdip_blast" :
+   {
+       "walltime" : "10:00:00",
+       "mem" : "80G"
+   },
+   "pdip_filter_blast" :
+   {
+       "walltime" : "10:00:00",
+       "mem" : "80G"
+   }
+}

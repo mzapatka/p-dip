@@ -1,0 +1,27 @@
+name: pdip
+channels:
+  - r
+  - bioconda
+  - defaults
+  - conda-forge
+  - anaconda
+dependencies:
+  - bedtools=2.27.1
+  - bioconductor-rsamtools=1.32.3 
+  - biopython
+  - blast=2.7.1
+  - bowtie2=2.3.4.3
+  - bzip2=1.0.6
+  - r-base=3.5.1
+  - r-data.table=1.11.6
+  - r-optparse=1.6.0
+  - r-plyr=1.8.4
+  - salmon=0.11.3
+  - samtools=1.9
+  - snakemake=5.4.0
+  - trimmomatic=0.38 
+  - trinity=2.8.4
+  - mbuffer
+  - pip:
+    - configargparse
+    - pysam==0.14

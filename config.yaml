@@ -1,0 +1,14 @@
+logfolder: '[WD]/results/log_pdip'
+infolder: '[WD]/input/whole_genome_sequencing'
+bamsuffix: '_merged.mdup.bam'
+outfolder: '[WD]/results_pdip'
+scriptfolder: '[WD]/tools/pdip/scripts'
+hostreference: '[WD]/ref_human/hg19_GRCh37_1000genomes_noviral_phiX/hs37d5_noNC_007605_nohs37d5_phiX'
+mincontiglength: 300
+envir: 'source [WD]/tools/miniconda3/bin/activate pdip'
+contaminants: '[WD]/tools/pdip/database/otherseqs.tab'
+blastdb: '[WD]/tools/pdip/database/blast_2019-01-10'
+R1: '_R1_sequence.gz'
+R2: '_R2_sequence.gz'
+B: '_merged.mdup.bam'
+
