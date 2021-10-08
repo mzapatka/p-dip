@@ -1,4 +1,4 @@
-# pdip
+# P-DiP
 
 Pathogen Discovery Pipeline
 
