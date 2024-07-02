@@ -18,6 +18,13 @@ install miniconda from https://conda.io/miniconda.html
 ```
 conda env create -n pdip --file pdip.yaml 
 ```
+2024-07-02 miniconda environment seems not to build (user issue was raised)
+build the environment with micromamba 
+(https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html)
+```
+micromamba env create -n pdip --file pdip.yaml 
+```
+
 # get databases
 ## blast
 ```
